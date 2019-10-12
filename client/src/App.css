@@ -31,3 +31,44 @@
     transform: rotate(360deg);
   }
 }
+
+.backGround{
+  background-color: #FAFAFA;
+  height: 100%;
+}
+
+h1{
+  text-align:center;
+}
+
+.boxForPlayers{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.cardBox{
+  border: 1px black solid;
+  width: 45%;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+h3{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: .7rem;
+}
+.alignCenter{
+  text-align: center;
+}
+button{
+  margin: 0 auto !important;
+}
+
+.blue{
+  background-color: black;
+  color: #61dafb;
+}
