@@ -3,12 +3,12 @@ import './App.css';
 import PlayerBox from './components/PlayerBox';
 import { useDarkMode } from './utils/darkmode';
 
-function App(props){
-  // const [darkMode, setDarkMode] = useDarkMode();
-  // const toggleMode = e => {
-  //   e.preventDefault();
-  //   setDarkMode(!darkMode)
-  // };
+function App(){
+  const [darkMode, setDarkMode] = useDarkMode();
+  const toggleMode = e => {
+    e.preventDefault();
+    setDarkMode(!darkMode)
+  };
 
   return (
      <div className={darkMode ? 'backGround blue': 'backGround'} id="back">
